@@ -1,0 +1,17 @@
+mysql -u {usrName} -p   //create an accant and set the password
+
+exit                    
+
+mysqladmin -u {usrName} -p password "********"    //reset the password of accant
+
+show database
+use {databaseName} UTF-8
+show tables
+desc {tableName}
+show create table {tableName}
+
+select user()
+select database()
+
+create database {databaseName}
+create table
