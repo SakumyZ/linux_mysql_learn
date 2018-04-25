@@ -1,0 +1,28 @@
+mysql -u <usrName> -p  //create an accant and set the password
+
+exit                    
+
+mysqladmin -u <usrName> -p password "********"    //reset the password of accant
+######################################################################################
+show database                       //查看所有数据库
+use <databaseName> UTF-8           //切换数据库
+show tables                        //查看所有表
+desc <tableName>                   //查看表字段
+show create database               //显示create database 语句是否能够创建指定的数据库
+show create table <tableName>     //显示create database 语句是否能够创建指定的数据库
+######################################### 信 息 选 择 #####################################
+select user()                    //查看当前用户
+select database()                //查看当前数据库
+############################################ 创 建 ######################################
+create database <databaseName>  //创建数据库
+create table                    //创建表
+###################################### 增 删 改 查 ############################################
+
+insert into <table_name> values()
+
+delete from <table_name> where <条件>
+
+update <table_name> set <column_name> = <表达式> where <条件>
+
+select <column_name> from <table_name> where <条件>
+selec * from <table_name>       //通配符 * 表示所有
