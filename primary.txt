@@ -21,8 +21,12 @@ create table                    //创建表
 insert into <table_name> values()
 
 delete from <table_name> where <条件>
-
+  
+  
+  
 update <table_name> set <column_name> = <表达式> where <条件>
 
 select <column_name> from <table_name> where <条件>
 selec * from <table_name>       //通配符 * 表示所有
+
+###################################### 删除触发器 #############################################
